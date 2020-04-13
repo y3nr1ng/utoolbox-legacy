@@ -1,0 +1,24 @@
+[build-system]
+requires = [
+    'setuptools',
+    'wheel'
+]
+
+[tool.black]
+line-length = 88
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | build
+  | dist
+)/
+'''
+
+[tool.coverage.run]
+branch = true
+omit = '*/__init__.py'
+
+[tool.pytest]
+testpaths = 'tests/'
+addopts = '--cov=utoolbox/'
