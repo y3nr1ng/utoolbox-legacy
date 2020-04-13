@@ -28,18 +28,18 @@ except ImportError:
 
 setup(
     # published project name
-    name="utoolbox-template",
+    name="utoolbox-legacy",
     # from dev to release
     #   bumpversion release
     # to next version
     #   bump patch/minor/major
     version="0.0.1.dev0",
     # one-line description for the summary field
-    description="Template package for uToolbox namespace package.",
+    description="Legacy modules from the original core module.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     # project homepage
-    url="https://github.com/liuyenting/utoolbox-template",
+    url="https://github.com/liuyenting/utoolbox-legacy",
     # name or organization
     author="Liu, Yen-Ting",
     classifiers=[
