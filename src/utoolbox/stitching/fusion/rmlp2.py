@@ -10,7 +10,7 @@ import numpy as np
 from skimage.transform import resize
 from scipy import ndimage as ndi
 
-from utoolbox.utils.decorator import timeit
+from utoolbox.util.decorator import timeit
 
 __all__ = ["rmlp2"]
 

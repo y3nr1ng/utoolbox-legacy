@@ -6,7 +6,7 @@ import cupy as cp
 from cupyx.scipy.fftpack import get_fft_plan, fftn, ifftn
 import numpy as np
 
-from utoolbox.utils.decorator import timeit
+from utoolbox.util.decorator import timeit
 
 from utoolbox.stitching.findpeak import FindPeak3D
 

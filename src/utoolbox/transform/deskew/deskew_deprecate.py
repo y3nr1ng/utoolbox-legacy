@@ -10,7 +10,7 @@ import pycuda.gpuarray as gpuarray
 from pycuda.tools import dtype_to_ctype
 import tqdm
 
-from utoolbox.utils import AttrDict, Resolution
+from utoolbox.util import AttrDict, Resolution
 
 logger = logging.getLogger(__name__)
 

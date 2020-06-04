@@ -3,7 +3,7 @@ import logging
 import cupy as cp
 from mako.template import Template
 
-from utoolbox.utils import AttrDict
+from utoolbox.util import AttrDict
 
 __all__ = ["RawKernelFile"]
 

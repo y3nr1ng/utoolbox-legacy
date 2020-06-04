@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 from utoolbox.container.datastore import ImageFolderDatastore
 from utoolbox.exposure import histogram
-from utoolbox.utils.logging import TqdmLoggingHandler
+from utoolbox.util.logging import TqdmLoggingHandler
 
 ###
 # region: Configure logging facilities
